@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C3E43A151692C600039965 /* AudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C3E435151692C600039965 /* AudioDevice.cpp */; };
+		83C3E43B151692C600039965 /* AudioDeviceList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C3E437151692C600039965 /* AudioDeviceList.cpp */; };
+		83C3E43C151692C600039965 /* ChangeOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C3E439151692C600039965 /* ChangeOutput.cpp */; };
+		83EA43D91516744F0042B6ED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EA43D61516744F0042B6ED /* AudioToolbox.framework */; };
+		83EA43DA1516744F0042B6ED /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EA43D71516744F0042B6ED /* AudioUnit.framework */; };
+		83EA43DB1516744F0042B6ED /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EA43D81516744F0042B6ED /* CoreAudio.framework */; };
+		83EA43E4151676FA0042B6ED /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EA43E3151676FA0042B6ED /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83EA43C71516742A0042B6ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83C3E435151692C600039965 /* AudioDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioDevice.cpp; path = ChangeOutput/AudioDevice.cpp; sourceTree = SOURCE_ROOT; };
+		83C3E436151692C600039965 /* AudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioDevice.h; path = ChangeOutput/AudioDevice.h; sourceTree = SOURCE_ROOT; };
+		83C3E437151692C600039965 /* AudioDeviceList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioDeviceList.cpp; path = ChangeOutput/AudioDeviceList.cpp; sourceTree = SOURCE_ROOT; };
+		83C3E438151692C600039965 /* AudioDeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioDeviceList.h; path = ChangeOutput/AudioDeviceList.h; sourceTree = SOURCE_ROOT; };
+		83C3E439151692C600039965 /* ChangeOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChangeOutput.cpp; path = ChangeOutput/ChangeOutput.cpp; sourceTree = SOURCE_ROOT; };
+		83EA43C91516742A0042B6ED /* ChangeOutput */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChangeOutput; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EA43D61516744F0042B6ED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		83EA43D71516744F0042B6ED /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		83EA43D81516744F0042B6ED /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		83EA43E3151676FA0042B6ED /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EA43C61516742A0042B6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EA43E4151676FA0042B6ED /* Carbon.framework in Frameworks */,
+				83EA43D91516744F0042B6ED /* AudioToolbox.framework in Frameworks */,
+				83EA43DA1516744F0042B6ED /* AudioUnit.framework in Frameworks */,
+				83EA43DB1516744F0042B6ED /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83EA43BE1516742A0042B6ED = {
+			isa = PBXGroup;
+			children = (
+				83EA43CC1516742A0042B6ED /* ChangeOutput */,
+				83EA43DC151674560042B6ED /* Frameworks */,
+				83EA43CA1516742A0042B6ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83EA43CA1516742A0042B6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83EA43C91516742A0042B6ED /* ChangeOutput */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EA43CC1516742A0042B6ED /* ChangeOutput */ = {
+			isa = PBXGroup;
+			children = (
+				83C3E435151692C600039965 /* AudioDevice.cpp */,
+				83C3E436151692C600039965 /* AudioDevice.h */,
+				83C3E437151692C600039965 /* AudioDeviceList.cpp */,
+				83C3E438151692C600039965 /* AudioDeviceList.h */,
+				83C3E439151692C600039965 /* ChangeOutput.cpp */,
+			);
+			name = ChangeOutput;
+			path = SwitchInput;
+			sourceTree = "<group>";
+		};
+		83EA43DC151674560042B6ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83EA43E3151676FA0042B6ED /* Carbon.framework */,
+				83EA43D61516744F0042B6ED /* AudioToolbox.framework */,
+				83EA43D71516744F0042B6ED /* AudioUnit.framework */,
+				83EA43D81516744F0042B6ED /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83EA43C81516742A0042B6ED /* ChangeOutput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EA43D31516742A0042B6ED /* Build configuration list for PBXNativeTarget "ChangeOutput" */;
+			buildPhases = (
+				83EA43C51516742A0042B6ED /* Sources */,
+				83EA43C61516742A0042B6ED /* Frameworks */,
+				83EA43C71516742A0042B6ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeOutput;
+			productName = SwitchInput;
+			productReference = 83EA43C91516742A0042B6ED /* ChangeOutput */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83EA43C01516742A0042B6ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 83EA43C31516742A0042B6ED /* Build configuration list for PBXProject "ChangeOutput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83EA43BE1516742A0042B6ED;
+			productRefGroup = 83EA43CA1516742A0042B6ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83EA43C81516742A0042B6ED /* ChangeOutput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EA43C51516742A0042B6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C3E43A151692C600039965 /* AudioDevice.cpp in Sources */,
+				83C3E43B151692C600039965 /* AudioDeviceList.cpp in Sources */,
+				83C3E43C151692C600039965 /* ChangeOutput.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83EA43D11516742A0042B6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83EA43D21516742A0042B6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83EA43D41516742A0042B6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				PRODUCT_NAME = ChangeOutput;
+			};
+			name = Debug;
+		};
+		83EA43D51516742A0042B6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = ChangeOutput;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83EA43C31516742A0042B6ED /* Build configuration list for PBXProject "ChangeOutput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EA43D11516742A0042B6ED /* Debug */,
+				83EA43D21516742A0042B6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EA43D31516742A0042B6ED /* Build configuration list for PBXNativeTarget "ChangeOutput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EA43D41516742A0042B6ED /* Debug */,
+				83EA43D51516742A0042B6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83EA43C01516742A0042B6ED /* Project object */;
+}
