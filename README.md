@@ -14,11 +14,11 @@
 
 
 ### Suggested Usage:
-ChangeOutput can be used in combination with an AppleScript to create a keyboard toggle.
+ChangeOutput can be used in conjunction with an AppleScript and Automator service to create a keyboard toggle.
 
-An example of this can be found in /Example/KeyboardToggle.scpt
+An example applescript can be found in /Example/KeyboardToggle.scpt
 
-A keyboard toggle can be bound to an AppleScript within System Preferences
-
+A keyboard toggle can be bound to an automator serivce within System Preferences > Keyboard
+[This guide](http://blog.fosketts.net/2010/08/09/assign-keyboard-shortcut-applescript-automator-service/) demonstrates how to run an applescript with a keyboard shortcut.
 
 *Tested on OSX 1.7.3 (Lion)*
