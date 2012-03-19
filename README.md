@@ -19,6 +19,7 @@ ChangeOutput can be used in conjunction with an AppleScript and Automator servic
 An example applescript can be found in /Example/KeyboardToggle.scpt
 
 A keyboard toggle can be bound to an automator serivce within System Preferences > Keyboard
+
 [This guide](http://blog.fosketts.net/2010/08/09/assign-keyboard-shortcut-applescript-automator-service/) demonstrates how to run an applescript with a keyboard shortcut.
 
 *Tested on OSX 1.7.3 (Lion)*
